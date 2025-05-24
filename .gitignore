@@ -7,3 +7,9 @@
 *.bin
 *.pyc
 *.cache
+
+
+*.wav
+*.jpg
+*.png
+*.mp4
