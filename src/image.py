@@ -8,6 +8,7 @@ Este código é um exemplo de como carregar e exibir uma imagem usando OpenCV.
     - Exibe a imagem em uma janela usando cv2.imshow().
     - Aguarda uma tecla ser pressionada usando cv2.waitKey().
 
+aula 23
 """
 
 import cv2
