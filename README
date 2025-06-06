@@ -1,12 +1,38 @@
 # REPOSITÓRIO DE ATIVIDADES - SISTEMA DE MULTIMÍDIA
 
 ## DESCRIÇÃO
+Este projeto visa documentar os ensinamentos aprendidos na disciplina de Sistema de Multimídia, com ênfase na elaboração de códigos personalizados para captura de imagens, vídeos e sons com o python
 
 ## DIRETÓRIO
-
+O projeto está estruturado da seguinte forma:
+~~~bash
+src/
+├── audio.py
+├── image.py
+├── main.py
+└── speech.py
+~~~
+Para os ambiente virtual do python, recomenda-se que seja feito ates do src/ </br>
+O .gitignore que está presente já ignore automaticamente os demais arquivos desnecessários para o versionamento
 ## CONSTRUIR
+Para construir o projeto, é necessãrio que o seu computator tenha o <i>virutalenv</i> do python, tanto para distros Linux e MacOS quanto para Windows. </br>
+
+Sistemas baseados no Debian, siga esses passos:
+~~~bash
+sudo apt install python3-virtualenv || pip3 install virtualenv
+~~~
+Em seguite, execute o git clone em uma pasta adqueada:
+~~~git
+git clone https://github.com/TechnoDark-ti/Disciplina-de-SistemasMultimidia.git
+~~~
+Por fim, construa o virtualenv dentro da pasta:
+~~~
+virtualenv Disciplina-de-SistemasMultimidia/
+~~~
 
 ## CONTEÚDO
 
-## LIENCE
+## LICENCE
+
+Este repositório é distribuído sob a Licença GPL v.3. Consulte o arquivo LICENSE para obter detalhes.
 
