@@ -1,23 +1,25 @@
 import speech_recognition as sr
 import pyttsx3
 
-r = sr.Recognizer()
 
-engine = pyttsx3.init()
+def speech():
+    r = sr.Recognizer()
 
-with sr.Microphone() as mic:
-    r.adjust_for_ambient_noise(mic)
-    print("AAAÃÃÃNNHHÓÓOOOØOOONNN")
-    engine.say("AAAÃÃÃNNHHÓÓOOOØOOONNN")
-    engine.runAndWait()
+    engine = pyttsx3.init()
 
-    audio = r.listen(mic)
-
-    try:
-        texto = r.recognize_google(audio, language='pt-BR')
-        print(texto)
-    except sr.UnknownValueError:
+    with sr.Microphone() as mic:
+        r.adjust_for_ambient_noise(mic)
         print("AAAÃÃÃNNHHÓÓOOOØOOONNN")
-    except sr.RequestError as e:
-        print(f"AAAÃÃÃNNHHÓÓOOOØOOONNN: {e}")
+        engine.say("AAAÃÃÃNNHHÓÓOOOØOOONNN")
+        engine.runAndWait()
+
+        audio = r.listen(mic)
+
+        try:
+            texto = r.recognize_google(audio, language='pt-BR')
+            print(texto)
+        except sr.UnknownValueError:
+            print("AAAÃÃÃNNHHÓÓOOOØOOONNN")
+        except sr.RequestError as e:
+            print(f"AAAÃÃÃNNHHÓÓOOOØOOONNN: {e}")
 
