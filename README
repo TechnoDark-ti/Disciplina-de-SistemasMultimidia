@@ -1,7 +1,7 @@
-# REPOSITÓRIO DE ATIVIDADES - SISTEMA DE MULTIMÍDIA
+# Detecção de Lixo com YOLOv8 - SISTEMA DE MULTIMÍDIA
 
 ## DESCRIÇÃO
-Este projeto visa documentar e implementar os ensinamentos adquiridos na disciplina de Sistema de Multimídia, com ênfase na elaboração de códigos personalizados para captura de imagens, vídeos e sons com o python
+Projeto para detectar lixo em áreas costeiras usando segmentação com YOLOv8, baseado no artigo científico "Detecção de Lixo em Áreas Costeiras: Uma Aplicação com R-CNNs da Família YOLO".
 
 ## DIRETÓRIO
 O projeto está estruturado da seguinte forma:
@@ -20,7 +20,7 @@ projeto-yolo-lixo/
 │   └── beachlitter/         # Dataset (link ou estrutura)
 ├── notebooks/
 │   └── exploracao.ipynb     # Análise exploratória
-├── scripts/
+├── scr/
 │   ├── inferencia.py        # Segmentação com YOLO
 │   └── treino.py            # Treinamento com YOLOv7/v8
 
@@ -30,7 +30,10 @@ O .gitignore que está presente já ignore automaticamente os demais arquivos de
 
 ## DEPENDENCIAS
 - Python 3.11
-- 
+- torch 
+- torchvision
+- ultralytics
+- opencv-python
 
 ## CONSTRUIR
 Para construir o projeto, é necessãrio que o seu computator tenha o <i>virutalenv</i> do python, tanto para distros Linux e MacOS quanto para Windows. </br>
