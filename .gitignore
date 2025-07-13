@@ -5,13 +5,12 @@
 __pycache__/
 runs/
 /include/
+/data/*
 
 *.cfg
 *.bin
 *.pyc
 *.cache
-
-
 *.wav
 *.jpg
 *.png
