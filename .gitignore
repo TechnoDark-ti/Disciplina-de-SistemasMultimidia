@@ -2,6 +2,9 @@
 /bin/
 /lib/
 /share/
+__pycache__/
+runs/
+/include/
 
 *.cfg
 *.bin
@@ -13,3 +16,4 @@
 *.jpg
 *.png
 *.TAG
+*.pt
