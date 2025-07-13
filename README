@@ -34,6 +34,7 @@ O .gitignore que está presente já ignore automaticamente os demais arquivos de
 - torchvision
 - ultralytics
 - opencv-python
+- labelme
 
 ## CONSTRUIR
 Para construir o projeto, é necessãrio que o seu computator tenha o <i>virutalenv</i> do python, tanto para distros Linux e MacOS quanto para Windows. </br>
