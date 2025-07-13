@@ -6,11 +6,24 @@ Este projeto visa documentar os ensinamentos aprendidos na disciplina de Sistema
 ## DIRETÓRIO
 O projeto está estruturado da seguinte forma:
 ~~~bash
-src/
-├── audio.py
-├── image.py
-├── main.py
-└── speech.py
+projeto-yolo-lixo/
+│
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── setup.sh                 # Script para configurar ambiente
+├── yolov7/
+│   └── ...                  # Código YOLOv7 clonado e adaptado
+├── yolov8/
+│   └── ...                  # Código YOLOv8 (Ultralytics)
+├── data/
+│   └── beachlitter/         # Dataset (link ou estrutura)
+├── notebooks/
+│   └── exploracao.ipynb     # Análise exploratória
+├── scripts/
+│   ├── inferencia.py        # Segmentação com YOLO
+│   └── treino.py            # Treinamento com YOLOv7/v8
+
 ~~~
 Para os ambiente virtual do python, recomenda-se que seja feito ates do src/ </br>
 O .gitignore que está presente já ignore automaticamente os demais arquivos desnecessários para o versionamento
