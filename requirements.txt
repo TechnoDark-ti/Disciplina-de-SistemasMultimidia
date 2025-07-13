@@ -1,0 +1,8 @@
+torch>=2.0.0
+torchvision
+matplotlib
+opencv-python
+pyyaml
+numpy
+pandas
+ultralytics
