@@ -27,6 +27,11 @@ projeto-yolo-lixo/
 ~~~
 Para os ambiente virtual do python, recomenda-se que seja feito ates do src/ </br>
 O .gitignore que está presente já ignore automaticamente os demais arquivos desnecessários para o versionamento
+
+## DEPENDENCIAS
+- Python 3.11
+- 
+
 ## CONSTRUIR
 Para construir o projeto, é necessãrio que o seu computator tenha o <i>virutalenv</i> do python, tanto para distros Linux e MacOS quanto para Windows. </br>
 
