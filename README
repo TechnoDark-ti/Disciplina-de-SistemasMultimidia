@@ -1,7 +1,7 @@
 # REPOSITÓRIO DE ATIVIDADES - SISTEMA DE MULTIMÍDIA
 
 ## DESCRIÇÃO
-Este projeto visa documentar os ensinamentos aprendidos na disciplina de Sistema de Multimídia, com ênfase na elaboração de códigos personalizados para captura de imagens, vídeos e sons com o python
+Este projeto visa documentar e implementar os ensinamentos adquiridos na disciplina de Sistema de Multimídia, com ênfase na elaboração de códigos personalizados para captura de imagens, vídeos e sons com o python
 
 ## DIRETÓRIO
 O projeto está estruturado da seguinte forma:
@@ -48,4 +48,3 @@ virtualenv Disciplina-de-SistemasMultimidia/
 ## LICENCE
 
 Este repositório é distribuído sob a Licença GPL v.3. Consulte o arquivo LICENSE para obter detalhes.
-
