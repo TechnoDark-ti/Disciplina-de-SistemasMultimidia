@@ -1,0 +1,6 @@
+path: data/beachlitter
+train: images/train
+val: images/val
+
+nc: 1
+names: ["lixo artificial"]
