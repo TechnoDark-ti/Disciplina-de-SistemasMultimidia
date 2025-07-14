@@ -48,7 +48,7 @@ sh setup.sh
 ~~~
 Por fim, rode o ambiente dentro da pasta:
 ~~~bash
-python3.11 venv Disciplina-de-SistemasMultimidia/bin/activate
+python3.11 -m venv Disciplina-de-SistemasMultimidia/bin/activate
 ~~~
 
 ## LICENCE
